@@ -1,0 +1,20 @@
+{
+	"index.html": {
+		"resources": [
+			"css/index.css",
+			"data/1.json",
+			"img/icon_back_n.png",
+			"css/iconfont.ttf",
+			"js/jquery-1.12.1.js",
+			"css/iconfont.css",
+			"data/2.json",
+			"img/F码.png",
+			"img/icon-我的优惠券.png",
+			"img/设置.png",
+			"img/笑脸.png",
+			"js/index.js",
+			"css/reset.css",
+			"img/spr2.png"
+		]
+	}
+}

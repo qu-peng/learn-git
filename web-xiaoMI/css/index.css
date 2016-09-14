@@ -1,0 +1,104 @@
+*{margin: 0;padding: ;}
+/*-----------------------------one-----------------------------------*/
+body,html{
+	width: 100%;
+}
+.one{width: 16rem; overflow: auto;position: absolute;display: block;}
+.one .section_first{width: 15rem;height: 2rem;margin: auto;border-bottom: 0.05rem solid #E5E5E5;margin-bottom: 0.2rem;}
+.one .section_first div{float: left;color: #C0C0C0;}
+.one .section_first span{margin: 0.35rem 0 0 0.5rem;display: inline-block;color: gainsboro;}
+
+.one .section_second{width: 16rem;height: 8rem;position: relative;overflow: hidden}
+.one .section_second .allImg{width: 96rem;height: 8rem;position: absolute;}
+.one .section_second .allImg img{ float:left;width:15.99rem;height: 8rem;}
+.one .section_second ul{position: absolute;left: 6.5rem;bottom: 0.5rem;}
+.one .section_second ul li{width: 0.4rem;height: 0.4rem;border-radius: 50%;margin-right:0.4rem;float: left;}
+
+.one .section_third{width: 16rem;}
+.one .section_third img{float: left;width: 5rem;height: 7.25rem;margin: 0.16rem;}
+
+.one .section_four{width: 16rem;}
+.one .section_four .list li{width: 16rem;height: 5rem;position: relative; border-bottom: 1px solid #E5E5E5;overflow: hidden;}
+.one .section_four .list .max_img{float: left;width: 5.5rem;margin-top: 1rem;}
+.one .section_four .list .min_img{width: 2.5rem;position: absolute;left: 0;top: 2rem;}
+.one .section_four .list div{width: 10rem;float: left;}
+.one .section_four .list p:last-child{color: red;}
+
+
+.one .section_five{width: 16rem;}
+.one .section_five img{width: 8rem;height: 4.4rem;float: left;}
+
+
+/*----------------------------------two-------------------------------------*/
+.two{width: 16rem;position: absolute;background: #DCDCDC; display: none;}
+.two .two_one{width: 15rem;margin: auto;height: 2rem;}
+.two .two_one img{float: left;width: 1rem;margin-top: 0.5rem;}
+.two .two_one .p1{float: left;margin-left: 5rem;margin-top: 0.5rem;}
+.two .two_one .iconfont{float: right;}
+
+
+.two .two_two{width: 16rem;margin: auto;clear: both;}
+.two .two_two .max_div{overflow: hidden; width: 16rem;background: white;border: 0.3rem solid #E5E5E5;border-bottom: none;}
+.two .two_two .max_div .pTop{width: 5rem;margin-left: 5rem; line-height: 3.5rem;}
+.two .two_two .max_div .div_imgs{width: 16rem;}
+.two .two_two .max_div .min_div{width: 3.99rem;text-align: center;float: left;}
+.two .two_two .max_div .min_div img{width: 2.2rem;}
+.two .bottom_div{width: 15.4rem;height: 3rem;background: white;}
+
+
+/*---------------------------three-----------------------------------*/
+.three{width: 16rem;position: absolute; display: none;overflow: hidden; display: none;}
+.three .three_one{width: 16rem;margin: auto;height: 2rem;background: lightgray;}
+.three .three_one img{float: left;width: 1rem;margin-top: 0.5rem;}
+.three .three_one .p1{float: left;margin-left: 5.6rem;margin-top: 0.5rem;}
+.three .three_one .iconfont{float: right;}
+
+.three .yuan{width: 5rem;height: 5rem;padding-top: 1rem; border: 1px solid #E5E5E5;text-align: center; border-radius: 50%;margin: 0 auto;margin-top: 3.5rem;}
+.three .yuan span{font-size: 2rem;}
+.three .bottom_div{width: 11rem;height: 2.3rem;margin: 0 auto;margin-top: 2.5rem;}
+.three .bottom_div span:first-child{width: 5.5rem;height: 2.3rem;line-height: 2.3rem; display: block;text-align: center; float: left;  background: #E5E5E5;}
+.three .bottom_div span:nth-child(2){width: 5.49rem;height: 2.3rem;line-height: 2.3rem; display: block;text-align: center; float: left; background: orange;}
+
+
+/*------------------------------four--------------------------------------------*/
+.four{width: 16rem;position: absolute; display: none; display: none;}
+.four .four_one{width: 16rem;margin: auto;height: 2rem;background: #E5E5E5;}
+.four .four_one img{float: left;width: 1rem;margin-top: 0.5rem;}
+.four .four_one .p1{float: left;margin-left: 5.6rem;margin-top: 0.5rem;}
+.four .four_one .iconfont{float: right;}
+
+.four .four_two{width: 16rem;overflow: hidden;position: relative;height: 5rem;}
+.four .four_two .p_top{width: 16rem;height: 3.5rem;background: red;color: white;text-align: center;font-size: 0.8rem;padding-top: 0.8rem;}
+.four .four_two .p_bottom{width: 3rem;text-align: center; height: 3rem;z-index: 999; background: orange;color: white;border-radius: 50%;position: absolute;left: 6.3rem;top: 2rem;
+		font-size: 1.5rem;
+}
+
+.four .four_three{width: 16rem;height: 4.25rem;margin-top: 0.5rem;border-bottom: 0.3rem solid #E5E5E5;}
+.four_three .div_left{width: 5.25rem;height: 4.25rem;float: left; border-right: 1px solid #E5E5E5;text-align: center;}
+.four_three .div_left .div_left_top{background: url(../img/spr2.png) no-repeat -0.1rem -0.1rem;
+		margin-left: 2rem; background-size:  1.4rem ; width: 1.4rem;height:1.4rem;}
+.four_three .div_left p:nth-child(2){margin: 0.3rem 0;}	
+.four_three .div_left p:nth-child(3){width: 1.5rem;height: 0.1rem;background: red;margin-left: 1.7rem;}
+
+
+.four_three .div_center{width: 5.25rem;height: 4.25rem;float: left; border-right: 1px solid #E5E5E5;text-align: center;}
+.four_three .div_center .div_center_top{background: url(../img/spr2.png) no-repeat left -2.8rem;
+		margin-left: 2rem; background-size: 1.4rem; width: 1.4rem;height:1.4rem;}
+.four_three .div_center p:nth-child(2){margin: 0.3rem 0;}	
+.four_three .div_center p:nth-child(3){width: 1.5rem;height: 0.1rem;background: greenyellow;margin-left: 1.7rem;}
+
+.four_three .div_right{width: 5.25rem;height: 4.25rem;float: left; text-align: center;}
+.four_three .div_right .div_right_top{background: url(../img/spr2.png) no-repeat left -1.4rem;
+		margin-left: 2rem; background-size: 1.4rem; width: 1.4rem;height:1.4rem;}
+.four_three .div_right p:nth-child(2){margin: 0.3rem 0;}	
+.four_three .div_right p:nth-child(3){width: 1.5rem;height: 0.1rem;background: orange;margin-left: 1.7rem;}
+
+
+.four_four{width: 16rem;overflow: hidden;}
+.four_four li{width: 16rem;height: 1.8rem; border-bottom: 0.3rem solid #E5E5E5;}
+.four_four li img{width: 1rem;margin: 0.2rem 0.5rem;}
+
+/*-----------------------footer--------------------------------------*/
+footer{width: 16rem;height: 2rem;position: fixed;bottom: 0; z-index: 999;background: white; display: flex;text-align: center;}
+footer 	section{flex: auto;}
+footer section p{font-size: 0.5rem;line-height: 0;}
